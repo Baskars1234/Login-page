@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@100&display=swap");
+body {
+  background-color: #f4fbff;
+}
+.header {
+  width: 75%;
+  height: 140px;
+  margin: auto;
+  border-radius: 6px;
+  background-image: url("image.png");
+  background-size: 100% 140px;
+  opacity: 0.8;
+  color: #ffffff;
+}
+.header h1 {
+  font-size: 27px;
+  font-family: DM sans;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.personal-details {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.personal-title {
+  width: auto;
+  height: 25px;
+  background-color: #bff4ff;
+  padding: 10px 10px 10px 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-family: DM Sans;
+  font-size: 24px;
+}
+.personal-detail {
+  padding: 20px;
+}
+.personal-detail label {
+  font-family: DM sans;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="textarea"] {
+  height: 25px;
+  width: 70%;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+.footer {
+  width: 30%;
+  margin: auto;
+}
+input[type="submit"] {
+  background-color: #0693f9;
+  color: white;
+  box-shadow: 0px 0px 5px #0693f9;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  font-family: Roboto;
+  font-weight: bold;
+}
+input[type="date"],
+select {
+  width: 40%;
+  height: 25px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+
+.event-details,
+.school-details,
+.project-description-details,
+.login-details {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+}
+
+.event-title,
+.school-title,
+.project-title,
+.login-title {
+  font-family: DM Sans;
+  width: auto;
+  height: 25px;
+  background-color: #bff4ff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px 10px 10px 20px;
+}
+
+.event-detail,
+.school-detail,
+.project-description-detail,
+.login-detail {
+  font-family: DM Sans;
+  padding: 20px;
+}
+
+.required {
+  color: red;
+}

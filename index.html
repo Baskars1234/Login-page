@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <title>event registration form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Science Fair Registration Form</h1>
+    </div>
+    <br />
+    <form action="loginsucessfull.html" onSubmit="login()">
+      <div class="personal-details">
+        <div class="personal-title">Personal Details</div>
+        <div class="personal-detail">
+          <label
+            >Name
+            <span class="`">*</span>
+          </label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Name Here"
+            `
+          />
+          <br />
+          <label
+            >Email
+            <span class="`"> * </span>
+          </label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email Here"
+            `
+          />
+          <br />
+          <label>Phone Number</label>
+          <span class="`"> *</span>
+          <br />
+          <input
+            type="tel"
+            name="mob"
+            id="mob"
+            placeholder="Enter Phone Number Here"
+            pattern="[6-9]{1}[0-9]{9}"
+            `
+          />
+          <br />
+          <label>Gender</label>
+          <br />
+          <input type="radio" name="gender" /> <label>Male</label>
+          <input type="radio" name="gender" /> <label>Female</label>
+          <input type="radio" name="gender" /> <label>Others</label>
+          <br />
+          <br />
+          <label>Date of Birth:</label>
+          <span class="`">*</span>
+          <br />
+          <input type="date" />
+        </div>
+      </div>
+      <div class="event-details">
+        <div class="event-title">Events</div>
+        <div class="event-detail">
+          <label> Check the event you wish to participate in: </label>
+          <br />
+          <input type="checkbox" name="event" checked />
+          <label>Robotics</label> <input type="checkbox" name="event" />
+          <label>Exhibtion</label> <input type="checkbox" name="event" />
+          <label>Quiz</label>
+          <br />
+          <input type="checkbox" name="event" /> <label>Ideathon</label>
+          <input type="checkbox" name="event" /> <label>Coding Challenge</label>
+        </div>
+      </div>
+
+      <div class="school-details">
+        <div class="school-title">School Details</div>
+        <div class="school-detail">
+          <label>Class</label>
+          <span class="`">*</span>
+          <br />
+          <select>
+            <option>Select a class</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+          <br />
+          <br />
+          <label> School Address </label>
+          <span class="`"> * </span>
+          <br />
+
+          <input
+            id="School-Address"
+            type="textarea"
+            placeholder="type your address here"
+            `
+          />
+        </div>
+      </div>
+
+      <div class="project-description-details">
+        <div class="project-title">Project Description</div>
+        <div class="project-description-detail">
+          <label> In 100 words or more give a brief about your project </label>
+          <span class="`">*</span>
+          <input
+            type="textarea"
+            id="description"
+            placeholder="Write Text here"
+          />
+          <br />
+          <br />
+          <label>Upload Project Presentation</label>
+          <span class="`">*</span>
+          <br />
+          <br />
+          <input type="file" id="file" ` />
+        </div>
+      </div>
+      <div class="footer">
+        <input type="submit" value="Send Your Application" ` />
+      </div>
+    </form>
+    <script></script>
+  </body>
+</html>
